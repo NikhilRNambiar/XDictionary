@@ -33,7 +33,7 @@ const XDictionary = () => {
         style={styles.input}
       />
       <button onClick={handleSearch} style={styles.button}>Search</button>
-      <p style={styles.p}>Definiton:</p>
+      <p style={styles.p}>Definition:</p>
       <div style={styles.result}>{result}</div>
     </div>
   );
